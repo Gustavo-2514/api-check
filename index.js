@@ -15,7 +15,7 @@ app.use("/", authRoute);
 app.use("/", checklistRoute);
 app.use("/", taskRoute);
 
-app.listen(5000, () => {
+app.listen(process.env.PORT, () => {
   connectDB;
   console.log("Server is running on port 5000");
 });

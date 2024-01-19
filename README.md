@@ -41,7 +41,7 @@ Caso queira testar a api ela esta hospedada na Vercel, use algum software de tes
 # Rotas Disponíveis
 
 
-***Não se esqueça de trocar :userId, :checklistId, :taskId***
+`Não se esqueça de trocar :userId, :checklistId, :taskId, pelos id retornado pela api`
 
 ## Verificação de Autorização:
 

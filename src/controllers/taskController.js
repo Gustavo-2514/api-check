@@ -27,7 +27,7 @@ module.exports = class TaskController {
       checklist.taskId.push(task);
       await checklist.save();
 
-      res.status(200).json({ msg: "Tarefa criada com sucesso" });
+      res.status(200).json({ msg: "Tarefa criada com sucesso", task });
     } catch (error) {
       res.status(400).json({ msg: "Erro ao criar tarefa" });
     }

@@ -22,9 +22,11 @@ A API, construida com o padrão de aquitetura **_MVC_**, possui **_auntenticaç�
   - Para fazer o hash nas senhas antes de salvar no banco.
 
 -**JWT** (Json Web Token ) 
-    - Para autenticar o usuario via Token.
+
+  - Para autenticar o usuario via Token.
 
 - **Mongo DB**
+
   - **Mongoose** (ODM) para estruturar os dados.
 
 # Teste

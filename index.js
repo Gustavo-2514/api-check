@@ -7,7 +7,7 @@ const authRoute = require("./src/routes/authRoute");
 const checklistRoute = require("./src/routes/checklistRoute");
 const taskRoute = require("./src/routes/taskRoute");
 
-app.use(cors({ credentials: true, origin: "" }));
+app.use(cors({ credentials: true, origin: "https://check-to-do-list-delta.vercel.app/login" }));
 // app.use(cors())
 app.use(express.json());
 

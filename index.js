@@ -7,10 +7,15 @@ const authRoute = require("./src/routes/authRoute");
 const checklistRoute = require("./src/routes/checklistRoute");
 const taskRoute = require("./src/routes/taskRoute");
 
-// app.use(cors({ credentials: true, origin: "http://localhost:5173" }));
-app.use(cors())
+app.use(cors({ credentials: true, origin: "" }));
+// app.use(cors())
 app.use(express.json());
 
+
+
+app.get('/',(req,res)=>{
+  res.status(200).json("Hello")
+})
 app.use("/", authRoute);
 app.use("/", checklistRoute);
 app.use("/", taskRoute);
